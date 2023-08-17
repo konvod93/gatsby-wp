@@ -12,7 +12,7 @@ export const HamburgerButton = styled.div`
     cursor: pointer;
     transition: all 0.2s ease;
 
-    :hover {
+    &:hover {
       transform: scale(1.2);
     }
 
