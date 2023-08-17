@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import Hamburger from '../Hamburger/Hamburger';
 import { GlobalStyles, Primary } from './Layout.styles';
 
 const Layout = ({ children }) => {
