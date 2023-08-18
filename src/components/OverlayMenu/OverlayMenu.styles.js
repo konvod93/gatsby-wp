@@ -67,7 +67,7 @@ export const Overlay = styled.div`
     transition: all 1s ease;
     outline: none;
 
-    :hover {
+    &:hover {
       transform: rotate(180deg);
     }
   }
