@@ -144,6 +144,7 @@ export const GlobalStyles = createGlobalStyle`
   [type='submit'],
   button,
   html [type='button'] {
+    appearance: button;
     -webkit-appearance: button;
   }
   [type='button']::-moz-focus-inner,
@@ -185,6 +186,7 @@ export const GlobalStyles = createGlobalStyle`
     height: auto;
   }
   [type='search'] {
+    appearance: textfield;
     -webkit-appearance: textfield;
     outline-offset: -2px;
   }

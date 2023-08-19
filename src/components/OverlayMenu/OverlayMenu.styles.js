@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
+
 export const Overlay = styled.div`
   width: 100%;
   height: 100%;
   position: fixed;
-  opacity: ${props => (props.menuOpen ? '1' : '0')};
+  opacity: ${props => (props.menuopen ? '1' : '0')};
   transform: ${props =>
-    props.menuOpen ? 'translateX(0%)' : 'translateX(-100%)'};
+    props.menuopen ? 'translateX(0%)' : 'translateX(-100%)'};
   z-index: 100000;
   background: #fff;
   left: 0px;
