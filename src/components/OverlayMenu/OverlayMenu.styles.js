@@ -49,7 +49,7 @@ export const Overlay = styled.div`
         transition: all 0.3s ease;
         text-decoration: none;
 
-        :hover {
+        &:hover {
           color: #ee2562;
         }
       }
