@@ -13,7 +13,7 @@ export const CTAImage = styled.div`
   position: relative;
   overflow: hidden;
 
-  :hover img {
+  &:hover img {
     transform: scale(1.1);
     filter: blur(2px);
   }
